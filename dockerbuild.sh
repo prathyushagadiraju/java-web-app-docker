@@ -1,6 +1,6 @@
-docker build -t ritheshy/demoo:yrrrrr .
-docker login -u ritheshy -p Rithesh@9
-docker push ritheshy/demoo:yrrrrr
-docker run -dt --name tomcatdocker -P ritheshy/demoo:yrrrrr
+docker build -t prathyushagadiraju/dockersample:app .
+docker login -u prathyushagadiraju -p puppy1097$
+docker push prathyushagadiraju/dockersample:app
+docker run -dt --name tomcatdocker -P prathyushagadiraju/dockersample:app 
 docker ps
 docker images
